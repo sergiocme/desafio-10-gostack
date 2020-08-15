@@ -63,14 +63,8 @@ const Dashboard: React.FC = () => {
     });
 
     setFoods(state => {
-      const indexOf = state.findIndex(el => el.id === editingFood.id);
-
-      const updatedFoodList = state;
-      updatedFoodList.splice(indexOf, 1, data);
-
-      return updatedFoodList;
+      return state.map(el => (el.id === editingFood.id ? data : el));
     });
-
     setEditingFood({} as IFoodPlate);
   }
 
