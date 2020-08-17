@@ -1,4 +1,6 @@
-## Repositório do Desafio: [https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-reactjs-crud](https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-reactjs-crud)
+#### Repositório do Desafio: [https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-reactjs-crud](https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-reactjs-crud)
+
+---
 
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
