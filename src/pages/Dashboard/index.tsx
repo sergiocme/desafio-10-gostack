@@ -55,7 +55,7 @@ const Dashboard: React.FC = () => {
   async function handleUpdateFood(
     food: Omit<IFoodPlate, 'id' | 'available'>,
   ): Promise<void> {
-    const { data } = await api.patch(`/foods/${editingFood.id}`, {
+    const { data } = await api.put(`/foods/${editingFood.id}`, {
       name: food.name,
       image: food.image,
       price: food.price,
